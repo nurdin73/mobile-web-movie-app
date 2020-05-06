@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import { Search } from '@material-ui/icons'
 
+import ListCategories from '../ListCategories'
+
 class Headers extends Component {
 	handleClick = (e) => {
 
@@ -20,6 +22,7 @@ class Headers extends Component {
 							</div>
 						</div>
 					</div>
+					<ListCategories />
 				</div>
 			</Fragment>
 		)

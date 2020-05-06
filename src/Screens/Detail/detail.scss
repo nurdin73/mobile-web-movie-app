@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+@media (max-width: $breakpoint-tablet) {
+	.header-poster {
+		// height: 50vh;
+	}
+	.header-poster img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	.shadow {
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    box-shadow: 0 -150px 100px $bg-app, inset 0 150px 10px $bg-app;
+	    width: 100%;
+	    height: 100%;
+	    transform: rotate(45deg, 40deg);
+	}
+	.detail {
+		background-color: $bg-app;
+		height: 40vh;
+		position: absolute;
+		z-index: 10;
+		top: 50vh;
+		left: 0;
+		right: 0;
+		padding: 10px;
+	}
+}
